@@ -1,0 +1,12 @@
+[programs.localnet]
+escrowcontract = "58Tuj755EWmYAbbCrbfjfSNqeS6L3yM8AvHajYuJQA9K"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/vikasreddykatta/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
